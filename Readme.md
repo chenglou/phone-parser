@@ -1,15 +1,17 @@
 
-# phoneParser
+# Phone Parser
 Parse the phone input into an output format of your choice. Good for formatting a user input.
 
 ## Installation
 ```bash
-$ component install chenglou/phoneParser
+$ component install chenglou/phone-parser
 ```
 
 ## API
 `'x'` represents a digit placeholder.
 ```js
+var phoneParser = require('phone-parser');
+
 phoneParser('2341234447', '(xxx) xxx-xxxx'); // Returns '(234) 123-4447'.
 phoneParser('+86 455 6988', 'xxxxxxxxx'); // Returns '864556988'.
 phoneParser(' 123 4567  ', '+1 xxx xxxx'); // Returns '+1 123 4567'.

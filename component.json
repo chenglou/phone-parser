@@ -1,5 +1,5 @@
 {
-  "name": "phoneParser",
+  "name": "phone-parser",
   "repo": "chenglou/phone-parser",
   "description": "Parse the phone input into an output format of your choice. Good for formatting a user input.",
   "version": "0.0.1",
