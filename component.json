@@ -1,0 +1,21 @@
+{
+  "name": "phoneParser",
+  "repo": "chenglou/phone-parser",
+  "description": "Parse the phone input into an output format of your choice. Good for formatting a user input.",
+  "version": "0.0.1",
+  "keywords": [
+    "phone",
+    "validation",
+    "parser",
+    "parse",
+    "format",
+    "cellphone"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}

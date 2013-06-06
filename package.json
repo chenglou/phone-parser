@@ -1,0 +1,27 @@
+{
+  "name": "phoneParser",
+  "version": "0.0.1",
+  "description": "Parse the phone input into an output format of your choice. Good for formatting a user input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node --noStack tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenglou/phone-parser.git"
+  },
+  "keywords": [
+    "phone",
+    "validation",
+    "parser",
+    "parse",
+    "format",
+    "cellphone"
+  ],
+  "devDependencies": {
+    "jasmine-node": ">=1.4.0",
+    "coffee-script": ">=1.6.0"
+  },
+  "author": "chenglou",
+  "license": "MIT"
+}
