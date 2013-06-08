@@ -1,6 +1,6 @@
 {
   "name": "phone-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse the phone input into an output format of your choice. Good for formatting a user input.",
   "main": "index.js",
   "scripts": {

@@ -1,5 +1,3 @@
-module.exports = phoneParser;
-
 function phoneParser(input, format) {
   // Trim away everything that's not a digit.
   input = input.replace(/\D/g, '');
@@ -22,4 +20,11 @@ function phoneParser(input, format) {
     throw new Error('Phone format cannot be parsed.');
   }
   return output;
+}
+
+// Direct browser support.
+if (typeof module === 'undefined') {
+  window.phoneParser = phoneParser;
+} else {
+  module.exports = phoneParser;
 }
